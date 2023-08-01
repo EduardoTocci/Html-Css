@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            background-color: rgb(38, 155, 155);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .ei > p{
+            display: none;
+        }
+        .ei:hover > p{
+            display: inline;
+            font-weight: bold;
+        }
+        .ei:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+     <h1>Mexendo com Hover</h1>
+     <p>passe o mouse no texto abaixo</p>
+     <div class="ei">
+         <span>Eu sou Santista</span>
+         <p>e Sofredor</p>
+     </div>
+</body>
+</html>

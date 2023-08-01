@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: black;
+            color: white;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+            
+        }
+        a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+        a:active{
+            color: rgb(255, 172, 172);
+        }
+        a::after{
+            content: ' (Link)';
+            color: gold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+     <h1>Trabalhando com Pseudo-Elementos</h1>
+     <ul>
+        <li><a href="https://www.youtube.com/watch?v=8aRor905cCw&list=RD8aRor905cCw&index=3">Música do Bruno Mars, escute</a></li>
+        <li><a href="https://www.youtube.com/watch?v=p19we8OamFo&list=PLJHl2FXT3lxn4yRXpAT6GItrO-T6prz9S&index=1">Vídeo massa, assita</a></li>
+        <li><a href="https://www.youtube.com/watch?v=J4fnx6lp_Ug&pp=ygUSY29wYSBkbyBtdW5kbyAyMDIy">Final da copa do mundo 2022, assita</a></li>
+     </ul>
+</body>
+</html>

@@ -1,0 +1,15 @@
+    @charset "UTF-8";
+       body{
+        background-color: black;
+       }
+        h1{
+            background-color:blueviolet;
+            color: rgb(230, 0, 0);
+        }
+        h2{
+            color: rgb(135, 45, 187);
+        }
+    
+      p{
+        color: aqua;
+      }
